@@ -9,6 +9,16 @@
     "api/disk/*.php": {
       "runtime": "vercel-php@0.4.0"
     },
+    "api/platform/*.php": {
+      "runtime": "vercel-php@0.4.0"
+    },
+    "api/vendor/*.php": {
+      "runtime": "vercel-php@0.4.0"
+    },
+    "api/vendor/doctrine/cache/lib/Doctrine/Common/Cache/*.php": {
+      "runtime": "vercel-php@0.4.0"
+    }
+
 
   }
 }
