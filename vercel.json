@@ -2,6 +2,24 @@
   "functions": {
     "/*.php": {
       "runtime": "vercel-php@0.4.0"
+    },
+    "platform/*.php": {
+      "runtime": "vercel-php@0.4.0"
+    },
+    "vendor/*.php": {
+      "runtime": "vercel-php@0.4.0"
+    },
+    "vendor/composer/*.php": {
+      "runtime": "vercel-php@0.4.0"
+    },
+    "vendor/doctrine/cache/lib/Doctrine/Common/Cache/*.php": {
+      "runtime": "vercel-php@0.4.0"
+    },
+    "disk/*.php": {
+      "runtime": "vercel-php@0.4.0"
+    },
+    ".data/*.php": {
+      "runtime": "vercel-php@0.4.0"
     }
   }
 }
