@@ -1,10 +1,14 @@
 {
   "functions": {
-    "api/index.php": {
+    "api/*.php": {
       "runtime": "vercel-php@0.4.0"
     },
     "api/platform/*.php": {
       "runtime": "vercel-php@0.4.0"
-    }
+    },
+    "api/disk/*.php": {
+      "runtime": "vercel-php@0.4.0"
+    },
+
   }
 }
