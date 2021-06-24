@@ -1,24 +1,24 @@
 {
   "functions": {
-    "./*.php": {
+    "api/*.php": {
       "runtime": "vercel-php@0.4.0"
     },
-    "platform/*.php": {
+    "api/platform/*.php": {
       "runtime": "vercel-php@0.4.0"
     },
-    "vendor/*.php": {
+    "api/vendor/*.php": {
       "runtime": "vercel-php@0.4.0"
     },
-    "vendor/composer/*.php": {
+    "api/vendor/composer/*.php": {
       "runtime": "vercel-php@0.4.0"
     },
-    "vendor/doctrine/cache/lib/Doctrine/Common/Cache/*.php": {
+    "api/vendor/doctrine/cache/lib/Doctrine/Common/Cache/*.php": {
       "runtime": "vercel-php@0.4.0"
     },
-    "disk/*.php": {
+    "api/disk/*.php": {
       "runtime": "vercel-php@0.4.0"
     },
-    ".data/*.php": {
+    "api/.data/*.php": {
       "runtime": "vercel-php@0.4.0"
     }
   }
